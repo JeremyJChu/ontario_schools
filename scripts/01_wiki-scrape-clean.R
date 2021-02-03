@@ -30,4 +30,4 @@ fsaM <- initial_clean
 fsaM_assigned <- filter(fsaM, Borough != "Not assigned")
 fsaM_assigned <- slice(fsaM_assigned, 1:(n()-4))
 
-write_csv(fsaM_assigned, "inputs/data/01_fsaM_cleaned.csv")
+write_csv(fsaM_assigned, "inputs/data/00_fsaM_cleaned.csv")
